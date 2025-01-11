@@ -19,3 +19,9 @@ pip install -r requirements.txt
 
 python DataAgent.py
 ```
+
+After running the script, you will see the message like the following:
+```bash
+Running on local URL: http://127.0.0.1:7860
+```
+Open this URL in your browser to start interacting with the application.

@@ -1,4 +1,4 @@
-smolagents==1.1.0
+smolagents
 numpy==2.2.1
 scikit-learn==1.6.0
 matplotlib==3.10.0

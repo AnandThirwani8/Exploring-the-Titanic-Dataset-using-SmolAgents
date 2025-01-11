@@ -1,0 +1,5 @@
+smolagents==1.1.0
+numpy==2.2.1
+scikit-learn==1.6.0
+matplotlib==3.10.0
+pandas==2.2.3

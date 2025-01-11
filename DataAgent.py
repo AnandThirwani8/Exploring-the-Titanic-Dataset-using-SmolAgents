@@ -38,7 +38,7 @@ def save_data(dataset:dict, file_name:str) -> None:
 # Using SmolAgents, we configure the agent with tools, the chosen LLM, and authorized library imports
 agent = CodeAgent(tools=[get_titanic_data, save_data],    
                   model=model, 
-                  additional_authorized_imports=['numpy', 'pandas', 'matplotlib.pyplot', 'sklearn'],)
+                  additional_authorized_imports=['numpy', 'pandas', 'matplotlib.pyplot', 'seaborn', 'sklearn'],)
 
 
 # Step 6: Launch a user-friendly chat interface with a single line of code
